@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Oswald:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&family=Roboto:wght@100;300;400;500&display=swap');
+*{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  transition: all .2s linear;
+}
+html {
+
+  /* scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  overflow-x: hidden; */
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+  border-bottom: 1px solid #E5E5E5;
+}
+.header .navbar #menu-btn , .header .about  {
+  font-size: 25px;
+  font-weight: 600;
+}
+.header .navbar #menu-btn {
+  display: flex;
+  align-items: center;
+}
+.header .navbar #menu-btn span{
+  padding: 0 10px;
+}
+.header .about span {
+  margin-right: 60px;
+}
+.header .navbar #menu-btn span, .header .about span{
+  font-size: 16px;
+
+}
+.header .logo img{
+  width: 150px;
+}
